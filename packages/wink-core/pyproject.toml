@@ -1,0 +1,20 @@
+[project]
+name = "wink-core"
+version = "0.1.0"
+description = "wink: coordinates Hunch and Tinker through policy, approval and audit"
+requires-python = ">=3.11"
+dependencies = ["tw-contracts", "tw-scene", "tw-connector"]
+
+[project.optional-dependencies]
+hunch = ["hunch-adapter"]
+tinker = ["tinker-service"]
+
+[project.scripts]
+wink-service = "wink_core.http:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["wink_core"]

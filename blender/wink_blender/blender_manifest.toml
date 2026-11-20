@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+id = "wink_blender"
+version = "0.1.0"
+name = "wink"
+tagline = "connect. decide. act"
+maintainer = "AprewaTurkson Inc."
+type = "add-on"
+blender_version_min = "4.2.0"
+license = ["SPDX:MIT"]
+tags = ["Object"]
+
+[permissions]
+network = "Loopback only, to reach the local wink service"
+files = "Reads the per-install wink token"

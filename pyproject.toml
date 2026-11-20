@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+testpaths = ["packages"]
+addopts = "-ra --import-mode=importlib"
+markers = ["slow: trains a model"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::UserWarning"]
