@@ -28,9 +28,7 @@ python build_blender.py --tinker ../tinker
 
 ## status
 
-experimental and early. expect rough edges and changes, and check every result yourself. no trained wink model ships with this repo. our internal wink model is trained on synthetic bootstrap data and is not included.
-
- plan, approve, apply and undo run end to end in blender against the mock and against a real hunch on a test scene. wink only acts through skills tinker has learned; without one it suggests and does nothing.
+experimental and early. expect rough edges and changes, and check every result yourself. no trained wink model ships with this repo. our internal wink model is trained on synthetic bootstrap data and is not included. plan, approve, apply and undo run end to end in blender against the mock and against a real hunch on a test scene. wink only acts through skills tinker has learned; without one it suggests and does nothing.
 
 ## family
 
